@@ -7,8 +7,11 @@ def line(deli)
     puts "The line is currently empty."
     return
   end
-  text = "T"
-  "The line is currently: 1. Logan 2. Avi 3. Spencer"
+  text = "The line is currently:"
+  deli.each_with_index do |name|
+    text << " #{index + 1}. #{name}"
+  end
+  puts text
 end
 
 def take_a_number(katz_deli, name)
