@@ -4,7 +4,7 @@ def line(deli)
     return
   end
   text = "The line is currently:"
-  deli.each_with_index do |name|
+  deli.each_with_index do |name, index|
     text << " #{index + 1}. #{name}"
   end
   puts text
