@@ -1,8 +1,7 @@
 def line(deli)
   if deli.empty? 
     puts "The line is currently empty."
-    return
-  end
+  else
   text = "The line is currently:"
   deli.each_with_index do |name, index|
     text << " #{index + 1}. #{name}"
