@@ -12,7 +12,8 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  puts deli.find_index(name)
+  position = deli.find_index(name)
+  puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
 def now_serving
