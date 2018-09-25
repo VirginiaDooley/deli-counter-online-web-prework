@@ -12,7 +12,7 @@ end
 
 def take_a_number(deli, name)
   deli.push(name)
-  puts deli.index(name)
+  puts deli.find_index(name)
 end
 
 def now_serving
