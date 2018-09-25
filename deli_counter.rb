@@ -21,6 +21,6 @@ def now_serving(deli)
     puts "There is nobody waiting to be served!"
   else
     next_person = deli.shift
-    next_person.unshift()
+    puts 
   end
 end
