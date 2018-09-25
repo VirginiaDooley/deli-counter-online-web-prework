@@ -16,10 +16,11 @@ def take_a_number(deli, name)
   puts "Welcome, #{name}. You are number #{position + 1} in line."
 end
 
-def now_serving
+def now_serving(deli)
   if deli.empty? 
-    puts "The line is currently empty."
+    puts "There is nobody waiting to be served!"
   else
-
+    next_person = deli[0]
+    next_person.unshift()
   end
 end
